@@ -1,0 +1,87 @@
+test	species	stop_set	ambiguous	n_bins	exact	calls
+genus_cv_v2_data	Acetabularia acetabulum	TGA	no	554	0.0	TAA,TAG,TGA:554
+genus_cv_v2_data	Amoeboaphelidium occidentale	TAA,TAG,TGA	no	152	1.0	TAA,TAG,TGA:152
+genus_cv_v2_data	Amoeboaphelidium protococcarum FD95	TGA	no	547	0.9982	TGA:546;TAA,TGA:1
+genus_cv_v2_data	Amoeboaphelidium protococcarum X5	TGA	no	619	0.9952	TGA:616;TAA,TGA:3
+genus_cv_v2_data	Arabidopsis thaliana	TAA,TAG,TGA	no	191	0.9948	TAA,TAG,TGA:190;TAA,TGA:1
+genus_cv_v2_data	Aspergillus nidulans FGSC A4	TAA,TAG,TGA	no	176	1.0	TAA,TAG,TGA:176
+genus_cv_v2_data	Bathycoccus prasinos	TAA,TAG,TGA	no	177	1.0	TAA,TAG,TGA:177
+genus_cv_v2_data	Blepharisma stoltei	TAA,TAG	no	607	0.804	TAA,TAG:488;TAA,TAG,TGA:119
+genus_cv_v2_data	Caenorhabditis elegans	TAA,TAG,TGA	no	197	0.9797	TAA,TAG,TGA:193;TAA,TGA:4
+genus_cv_v2_data	Candida albicans SC5314	TAA,TAG,TGA	no	194	1.0	TAA,TAG,TGA:194
+genus_cv_v2_data	Chlamydomonas reinhardtii	TAA,TAG,TGA	no	196	1.0	TAA,TAG,TGA:196
+genus_cv_v2_data	Cryptosporidium parvum	TAA,TAG,TGA	no	193	1.0	TAA,TAG,TGA:193
+genus_cv_v2_data	Dasytricha ruminantium	TAA,TAG,TGA	no	180	1.0	TAA,TAG,TGA:180
+genus_cv_v2_data	Dictyostelium discoideum AX4	TAA,TAG,TGA	no	200	0.995	TAA,TAG,TGA:199;TGA:1
+genus_cv_v2_data	Diplodinium dentatum	TAA,TAG,TGA	no	172	1.0	TAA,TAG,TGA:172
+genus_cv_v2_data	Drosophila melanogaster	TAA,TAG,TGA	no	207	1.0	TAA,TAG,TGA:207
+genus_cv_v2_data	Emiliania huxleyi	TAA,TAG,TGA	no	198	1.0	TAA,TAG,TGA:198
+genus_cv_v2_data	Encephalitozoon cuniculi	TAA,TAG,TGA	no	200	1.0	TAA,TAG,TGA:200
+genus_cv_v2_data	Enoploplastron triloricatum	TAA,TAG,TGA	no	187	1.0	TAA,TAG,TGA:187
+genus_cv_v2_data	Entamoeba histolytica	TAA,TAG,TGA	no	211	1.0	TAA,TAG,TGA:211
+genus_cv_v2_data	Epidinium cattanei	TAA,TAG,TGA	no	205	1.0	TAA,TAG,TGA:205
+genus_cv_v2_data	Eremoplastron rostratum	TAA,TAG,TGA	no	186	1.0	TAA,TAG,TGA:186
+genus_cv_v2_data	Euplotes focardii	TAA,TAG	no	598	0.9749	TAA,TAG:583;TAA,TAG,TGA:15
+genus_cv_v2_data	Fabrea salina	TAA,TAG,TGA	no	205	1.0	TAA,TAG,TGA:205
+genus_cv_v2_data	Giardia duodenalis	TAA,TAG,TGA	no	163	1.0	TAA,TAG,TGA:163
+genus_cv_v2_data	Metadinium minorum	TAA,TAG,TGA	no	175	1.0	TAA,TAG,TGA:175
+genus_cv_v2_data	Micromonas commoda RCC299	TAA,TAG,TGA	no	217	1.0	TAA,TAG,TGA:217
+genus_cv_v2_data	Naegleria gruberi	TAA,TAG,TGA	no	201	1.0	TAA,TAG,TGA:201
+genus_cv_v2_data	Obscuromonas oborniki	TAA,TAG,TGA	no	186	1.0	TAA,TAG,TGA:186
+genus_cv_v2_data	Obscuromonas volfi	TAA,TAG,TGA	no	185	1.0	TAA,TAG,TGA:185
+genus_cv_v2_data	Ostreococcus tauri	TAA,TAG,TGA	no	203	1.0	TAA,TAG,TGA:203
+genus_cv_v2_data	Oxytricha trifallax	TGA	no	628	1.0	TGA:628
+genus_cv_v2_data	Paramecium tetraurelia	TGA	no	603	0.9701	TGA:585;TAA,TGA:18
+genus_cv_v2_data	Perkinsus marinus	TAA,TAG,TGA	no	200	1.0	TAA,TAG,TGA:200
+genus_cv_v2_data	Phaeodactylum tricornutum	TAA,TAG,TGA	no	194	1.0	TAA,TAG,TGA:194
+genus_cv_v2_data	Polyplastron multivesiculatum	TAA,TAG,TGA	no	200	1.0	TAA,TAG,TGA:200
+genus_cv_v2_data	Saccharomyces cerevisiae S288C	TAA,TAG,TGA	no	208	1.0	TAA,TAG,TGA:208
+genus_cv_v2_data	Spironucleus salmonicida	TGA	no	578	0.9983	TGA:577;TAA,TGA:1
+genus_cv_v2_data	Stylonychia lemnae	TGA	no	598	0.9967	TGA:596;TAA,TGA:2
+genus_cv_v2_data	Tetrahymena thermophila	TGA	no	594	1.0	TGA:594
+genus_cv_v2_data	Thalassiosira pseudonana	TAA,TAG,TGA	no	219	1.0	TAA,TAG,TGA:219
+genus_cv_v2_data	Toxoplasma gondii ME49	TAA,TAG,TGA	no	202	1.0	TAA,TAG,TGA:202
+genus_cv_v2_data	Trypanosoma brucei TREU927	TAA,TAG,TGA	no	190	1.0	TAA,TAG,TGA:190
+genus_cv_v3_data	Acetabularia acetabulum	TGA	no	554	0.0	TAA,TAG,TGA:554
+genus_cv_v3_data	Amoeboaphelidium occidentale	TAA,TAG,TGA	no	152	1.0	TAA,TAG,TGA:152
+genus_cv_v3_data	Amoeboaphelidium protococcarum FD95	TGA	no	547	1.0	TGA:547
+genus_cv_v3_data	Amoeboaphelidium protococcarum X5	TGA	no	619	0.9984	TGA:618;TAA,TGA:1
+genus_cv_v3_data	Arabidopsis thaliana	TAA,TAG,TGA	no	191	0.9738	TAA,TAG,TGA:186;TAA,TAG:4;TAA,TGA:1
+genus_cv_v3_data	Aspergillus nidulans FGSC A4	TAA,TAG,TGA	no	176	1.0	TAA,TAG,TGA:176
+genus_cv_v3_data	Bathycoccus prasinos	TAA,TAG,TGA	no	177	1.0	TAA,TAG,TGA:177
+genus_cv_v3_data	Blepharisma stoltei	TAA,TAG	no	607	0.916	TAA,TAG:556;TAA,TAG,TGA:51
+genus_cv_v3_data	Caenorhabditis elegans	TAA,TAG,TGA	no	197	0.9645	TAA,TAG,TGA:190;TAA,TGA:4;TAA,TAG:2;TGA:1
+genus_cv_v3_data	Candida albicans SC5314	TAA,TAG,TGA	no	194	1.0	TAA,TAG,TGA:194
+genus_cv_v3_data	Chlamydomonas reinhardtii	TAA,TAG,TGA	no	196	0.9796	TAA,TAG,TGA:192;TAA,TGA:4
+genus_cv_v3_data	Cryptosporidium parvum	TAA,TAG,TGA	no	193	1.0	TAA,TAG,TGA:193
+genus_cv_v3_data	Dasytricha ruminantium	TAA,TAG,TGA	no	180	1.0	TAA,TAG,TGA:180
+genus_cv_v3_data	Dictyostelium discoideum AX4	TAA,TAG,TGA	no	200	1.0	TAA,TAG,TGA:200
+genus_cv_v3_data	Diplodinium dentatum	TAA,TAG,TGA	no	172	1.0	TAA,TAG,TGA:172
+genus_cv_v3_data	Drosophila melanogaster	TAA,TAG,TGA	no	207	1.0	TAA,TAG,TGA:207
+genus_cv_v3_data	Emiliania huxleyi	TAA,TAG,TGA	no	198	0.8788	TAA,TAG,TGA:174;TAA,TGA:24
+genus_cv_v3_data	Encephalitozoon cuniculi	TAA,TAG,TGA	no	200	1.0	TAA,TAG,TGA:200
+genus_cv_v3_data	Enoploplastron triloricatum	TAA,TAG,TGA	no	187	1.0	TAA,TAG,TGA:187
+genus_cv_v3_data	Entamoeba histolytica	TAA,TAG,TGA	no	211	1.0	TAA,TAG,TGA:211
+genus_cv_v3_data	Epidinium cattanei	TAA,TAG,TGA	no	205	1.0	TAA,TAG,TGA:205
+genus_cv_v3_data	Eremoplastron rostratum	TAA,TAG,TGA	no	186	1.0	TAA,TAG,TGA:186
+genus_cv_v3_data	Euplotes focardii	TAA,TAG	no	598	0.9314	TAA,TAG:557;TAA,TAG,TGA:41
+genus_cv_v3_data	Fabrea salina	TAA,TAG,TGA	no	205	1.0	TAA,TAG,TGA:205
+genus_cv_v3_data	Giardia duodenalis	TAA,TAG,TGA	no	163	1.0	TAA,TAG,TGA:163
+genus_cv_v3_data	Metadinium minorum	TAA,TAG,TGA	no	175	1.0	TAA,TAG,TGA:175
+genus_cv_v3_data	Micromonas commoda RCC299	TAA,TAG,TGA	no	217	1.0	TAA,TAG,TGA:217
+genus_cv_v3_data	Naegleria gruberi	TAA,TAG,TGA	no	201	1.0	TAA,TAG,TGA:201
+genus_cv_v3_data	Obscuromonas oborniki	TAA,TAG,TGA	no	186	1.0	TAA,TAG,TGA:186
+genus_cv_v3_data	Obscuromonas volfi	TAA,TAG,TGA	no	185	1.0	TAA,TAG,TGA:185
+genus_cv_v3_data	Ostreococcus tauri	TAA,TAG,TGA	no	203	1.0	TAA,TAG,TGA:203
+genus_cv_v3_data	Oxytricha trifallax	TGA	no	628	1.0	TGA:628
+genus_cv_v3_data	Paramecium tetraurelia	TGA	no	603	0.99	TGA:597;TAA,TGA:6
+genus_cv_v3_data	Perkinsus marinus	TAA,TAG,TGA	no	200	1.0	TAA,TAG,TGA:200
+genus_cv_v3_data	Phaeodactylum tricornutum	TAA,TAG,TGA	no	194	1.0	TAA,TAG,TGA:194
+genus_cv_v3_data	Polyplastron multivesiculatum	TAA,TAG,TGA	no	200	1.0	TAA,TAG,TGA:200
+genus_cv_v3_data	Saccharomyces cerevisiae S288C	TAA,TAG,TGA	no	208	1.0	TAA,TAG,TGA:208
+genus_cv_v3_data	Spironucleus salmonicida	TGA	no	578	1.0	TGA:578
+genus_cv_v3_data	Stylonychia lemnae	TGA	no	598	1.0	TGA:598
+genus_cv_v3_data	Tetrahymena thermophila	TGA	no	594	1.0	TGA:594
+genus_cv_v3_data	Thalassiosira pseudonana	TAA,TAG,TGA	no	219	1.0	TAA,TAG,TGA:219
+genus_cv_v3_data	Toxoplasma gondii ME49	TAA,TAG,TGA	no	202	1.0	TAA,TAG,TGA:202
+genus_cv_v3_data	Trypanosoma brucei TREU927	TAA,TAG,TGA	no	190	1.0	TAA,TAG,TGA:190

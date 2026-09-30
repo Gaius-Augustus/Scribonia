@@ -1,0 +1,19 @@
+#taxid	clade	rank	stop_sets	known_standard_members	citations	note
+# Eukaryotic clades with a published NUCLEAR stop-codon reassignment: bins in these clades
+# (and bins without taxonomy) are the ones worth classifying with Scribonia.  Outside them no
+# reassignment has been reported, which is absence of reports, not proof.  Swart et al. 2016
+# (10.1016/j.cell.2016.06.020) found no new code in 265 non-ciliate MMETSP transcriptomes.
+# Taxids from NCBI Taxonomy (datasets, 2026-09-27); DOI and claim of every citation checked against the paper.
+# stop_sets: which of TAA,TAG,TGA terminate; "ambiguous" = no dedicated stop, context-dependent.
+# Contested: Chen et al. 2023 (10.1093/molbev/msad064, stopCR) report TGA = Arg in stichotrichs incl.
+# Stylonychia lemnae and TAA/TAG/TGA = Gln/Gln/Cys in Peritromus kahli; not independently confirmed.
+# Standard heterotrich: Fabrea salina (Heaphy et al. 2016, 10.1093/molbev/msw166).
+5878	Ciliophora	phylum	TGA;TAA,TAG;TAA,TGA;ambiguous	Stentor, rumen Litostomatea, Chilodonella uncinata and other Phyllopharyngea	10.1016/j.cell.2016.06.020;10.24072/pcjournal.141;10.1371/journal.pgen.1010913;10.1371/journal.pgen.1011512	codes differ within classes (Colpodea, Heterotrichea, Phyllopharyngea, Litostomatea); class alone does not predict the code
+207245	Fornicata	phylum	TGA;TAA,TGA	Giardia (Giardiinae)	10.1093/oxfordjournals.molbev.a025832;10.1371/journal.pgen.1004053;10.1038/s41597-025-04514-x;10.1186/s12915-017-0353-y	Hexamitinae (68460: Hexamita, Spironucleus, Trepomonas) TAA/TAG = Gln; Iotanema (1911809, CL3 lineage) TAG = Gln
+66288	Oxymonadida	order	TGA	Saccinobaculus	10.1016/s0022-2836(03)00057-3	Streblomastix strix TAA/TAG = Gln; no clean assembly
+5752	Heterolobosea	phylum	TAA,TGA	most Heterolobosea	10.1016/j.ympev.2025.108289	Dactylomonas venusta (2600585) TAG = Gln, one transcriptome
+5654	Trypanosomatidae	family	ambiguous	Obscuromonas, Trypanosoma, Leishmania	10.1128/mbio.00885-25;10.1038/s41586-022-05584-2	only Blastocrithidia (28004): UAR = Glu, UGA = Trp, UAA the only terminator
+33103	Ulvophyceae	class	TGA;TAA,TGA	Bryopsidales, Ulvales, Ulotrichales	10.1186/1471-2148-10-327;10.1093/gbe/evab101	TAA/TAG = Gln in Dasycladales (3134), Cladophorales (3183), Trentepohliales (35443), Blastophysa; TAG = Ser in Scotinosphaerales (1387701); at least 3 independent origins
+136419	Cercozoa	phylum	TAA,TGA	other Sainouroidea (Guttulinopsis, Rosculus, Sainouron)	10.1186/s12915-017-0353-y	one uncultured Sainouroidea (2802237) lineage from an insect metatranscriptome, TAG = Leu
+2316435	Aphelidiomycota	phylum	TGA	Amoeboaphelidium occidentale	10.1016/j.cub.2022.08.071	Amoeboaphelidium protococcarum TAA/TAG = Gln
+88547	Syndiniales	order	ambiguous	other Amoebophrya strains (control strain ex Akashiwo)	10.1371/journal.pone.0212912;10.1093/g3journal/jkaf030	only Amoebophrya sp. ex Karlodinium veneficum shown: all three stops likely also sense

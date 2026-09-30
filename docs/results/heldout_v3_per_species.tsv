@@ -1,0 +1,19 @@
+test	species	stop_set	ambiguous	n_bins	exact	calls
+heldout_v3	Acetabularia acetabulum	TGA	no	233	0.0	TAA,TAG,TGA:233
+heldout_v3	Amoebophrya sp. ex Karlodinium veneficum	TAA,TAG,TGA	yes	24	NA	TGA:24
+heldout_v3	Blastocrithidia nonstop	TAA	yes	35	NA	TGA:35
+heldout_v3	Blastocrithidia triatomae	TAA	yes	21	NA	TGA:21
+heldout_v3	Blastocystis hominis	TAA,TAG,TGA	no	199	1.0	TAA,TAG,TGA:199
+heldout_v3	Condylostoma magnum	TAA,TAG,TGA	yes	26	NA	TGA:25;TAA,TGA:1
+heldout_v3	Danio rerio	TAA,TAG,TGA	no	179	0.9944	TAA,TAG,TGA:178;TAA,TGA:1
+heldout_v3	Entodinium bursa	TAA,TAG,TGA	no	194	1.0	TAA,TAG,TGA:194
+heldout_v3	Entodinium caudatum	TAA,TAG,TGA	no	178	1.0	TAA,TAG,TGA:178
+heldout_v3	Euplotes crassus	TAA,TAG	no	498	1.0	TAA,TAG:498
+heldout_v3	Hexamita inflata	TGA	no	264	1.0	TGA:264
+heldout_v3	Ichthyophthirius multifiliis	TGA	no	263	1.0	TGA:263
+heldout_v3	Isotricha intestinalis	TAA,TAG,TGA	no	195	1.0	TAA,TAG,TGA:195
+heldout_v3	Loxodes magnus	TGA	yes	32	NA	TGA:32
+heldout_v3	Plagiopyla frontata	TGA	yes	30	NA	TGA:29;TAA,TGA:1
+heldout_v3	Plasmodium falciparum 3D7	TAA,TAG,TGA	no	207	1.0	TAA,TAG,TGA:207
+heldout_v3	Pseudocohnilembus persalinus	TGA	no	254	1.0	TGA:254
+heldout_v3	Stentor coeruleus	TAA,TAG,TGA	no	168	1.0	TAA,TAG,TGA:168

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use Scribonia, please cite this software."
+type: software
+title: "Scribonia: fast estimation of the genetic-code stop set of genomes and metagenomic bins"
+authors:
+  - family-names: Hoff
+    given-names: Katharina J.
+    affiliation: "University of Greifswald, Germany"
+version: 0.1.1
+date-released: 2026-09-30
+license: MIT
+repository-code: "https://github.com/Gaius-Augustus/Scribonia"
+keywords:
+  - genetic code
+  - translation table
+  - stop codon
+  - ciliates
+  - metagenomics
+  - gene finding

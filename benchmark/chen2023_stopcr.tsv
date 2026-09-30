@@ -1,0 +1,77 @@
+# Stop codon calls and numbers from Chen et al. 2023, "Stop or Not: Genome-Wide Profiling of
+# Reassigned Stop Codons in Ciliates", Mol Biol Evol 40(4):msad064, doi:10.1093/molbev/msad064 (stopCR).
+# The paper has no per-species table; values are taken from its figures:
+#   fig4c_TAA/TAG/TGA  codon meaning per stopCR, Fig. 4c top rows ('*' = stop, letter = amino acid)
+#   term_pct_*         share of termination events per codon, Fig. 4c bars, DIGITISED from the
+#                      published JPEG by pixel colour (about +-2 percentage points; the paper gives no numbers)
+#   cds_n_*            reassigned stop codons counted in coding regions (Figs. S2-S9 panel headers, main text)
+#   accession          Table S1 (GCA/GCF genome, SRR transcriptome); CRA009215 = raw reads of the seven
+#                      newly sequenced Heterotrichea (CNCB PRJCA013838, no assembly deposited)
+# Stop set used by a gene finder != codon meaning: e.g. Stylonychia TGA = R, yet ~98 % of terminations use TGA.
+species	accession	fig4c_TAA	fig4c_TAG	fig4c_TGA	term_pct_TAA	term_pct_TAG	term_pct_TGA	cds_n_TAA	cds_n_TAG	cds_n_TGA	cds_n_source	note
+Dysteria derouxi	SRR9841576	*	*	*	98.2	1.8	0.0					
+Blepharisma penardi		*	*	W	84.5	15.5	0.0					not in Table S1
+Condylostentor auriculatus	CRA009215	*	*	W	80.1	19.9	0.0					
+Peritromus kahli	CRA009215	Q	Q	C	98.8	1.2	0.0	4222	18431	3805	Fig. S3	
+Euplotes woodruffi	GCA_021439945.1	*	*	C	86.8	13.2	0.0					
+Euplotes focardii	GCA_001880345.1	*	*	C	84.4	15.6	0.0					
+Euplotes sp.		*	*	C	86.7	13.3	0.0					probably E. weissei (GCA_021440005.1): E. weissei is in Table S1 and Fig. 2a but not in Fig. 4c
+Stentor coeruleus	GCA_001970955.1	*	*	*	64.2	35.8	0.0					
+Moneuplotes crassus	GCA_001880385.1	*	*	C	86.7	13.3	0.0					
+Euplotes cf. woodruffi	GCA_021441665.1	*	*	C	89.0	10.4	0.6					
+Protocruzia tuzeti	SRR7662948	*	Q	*	66.3	30.7	3.0		316		main text	
+Fabrea salina		*	*	*	88.6	8.4	3.0					Table S1: 'To be released'
+Entodinium caudatum	GCA_002087855.3	*	*	*	91.5	4.2	4.2					
+Euplotes parawoodruffi	GCA_021440025.1	*	*	C	78.4	17.4	4.2					
+Protocruzia adherens	SRR1296823	*	*	*	72.0	23.2	4.8					
+Spirostomum sp.	CRA009215	*	*	*	38.8	55.8	5.5					
+Climacostomum virens	CRA009215	*	*	*	44.6	49.4	6.0					
+Gruberia uninucleata	CRA009215	*	*	*	27.3	66.1	6.7					
+Stentor roeselii	GCA_006503475.1	*	*	*	52.1	41.2	6.7					
+Climacostomum sp.	CRA009215	*	*	*	45.2	47.6	7.2					
+Brachonella spiralis	SRR10513012	*	Q	*	82.1	10.1	7.7		100		main text	
+Bursaria truncatella	SRR10513000	*	*	*	74.1	14.5	11.4					
+Muranothrix gubernata	SRR11568512	*	*	*	59.2	26.4	14.4					
+Zosterodasys sp.	SRR10512985	Q	Q	*	68.0	8.4	23.6			469	main text	main text: TGA=W, masked by a symbiont with TGA=G
+Condylostoma sp.	CRA009215	Q	Q	W	41.8	13.9	44.2					
+Uronychia binucleata	GCA_021441645.1	Q	Q	R	48.8	1.8	49.4					TAA/TAG=Q, TGA=R per main text; not in Fig. 2a
+Mesodinium rubrum	SRR1296700	Y	Y	*	42.4	3.4	54.2					
+Colpoda sp.	SRR11962137	Q	Q	W	31.3	7.8	60.8					
+Paramecium caudatum	GCA_000715435.1	Q	Q	*	29.3	7.9	62.8					
+Uronychia setigera	GCA_021439965.1	Q	Q	R	30.1	1.8	68.1	5922	5801	987	main text, Fig. 2b	
+Paramecium sexaurelia	GCA_000733375.1	Q	Q	*	22.6	6.1	71.3					
+Kentrophoros sp.	SRR10513003	Q	Q	W	18.6	3.0	78.4					
+Tetrahymena elliotti	GCA_000231825.2	Q	Q	*	14.5	4.8	80.6					
+Diophrys appendiculata	GCA_006510565.1	Q	Q	*	17.1	1.8	81.1			275	main text	main text: low-frequency TGA readthrough (C)
+Mesodinium pulex	SRR1296764	Y	Y	*	9.2	12.7	78.0					
+Remanella sp.	SRR10512996	Q	Q	W	9.1	8.5	82.4					
+Tetrahymena malaccensis	GCA_000231845.2	Q	Q	*	10.2	2.4	87.3					
+Diophrys sp.	GCA_021441625.1	Q	Q	*	7.1	6.5	86.3					main text: low-frequency TGA readthrough (C)
+Paramecium biaurelia	GCA_000733385.1	Q	Q	*	8.5	2.4	89.1					
+Loxodes striatus	SRR10512998	Q	Q	W	3.6	6.6	89.8					
+Tetrahymena borealis	GCA_000260095.1	Q	Q	*	6.1	1.8	92.1					
+Certesia quadrinucleata	GCA_021439955.1	Q	Q	*	7.6	2.9	89.4					
+Urostyla sp.	GCA_001272955.2	Q	Q	R	5.5	1.2	93.3	16534	7695	147	Fig. S8	TGA=R per Fig. 2a (boxed) and Fig. S8, not named in the main text
+Trachelocerca sp.	SRR10512994	Q	Q	W	7.8	0.0	92.2					
+Nassula variabilis	SRR6754446	Q	Q	*	1.6	1.6	96.7					
+Carchesium polypinum	SRR1768437	E	E	*	2.4	1.8	95.7					
+Pseudokeronopsis carnea	GCA_006510595.1	Q	Q	*	3.6	0.6	95.8					
+Pseudocohnilembus persalinus	GCA_001447515.1	Q	Q	*	4.3	0.0	95.7					
+Parduczia sp.	SRR1300374	Q	Q	W	1.8	3.0	95.2					
+Laurentiella sp.	GCA_001272975.2	Q	Q	*	2.4	2.4	95.3					
+Paraurostyla sp.	GCA_001272965.2	Q	Q	R	1.8	1.2	97.0	18879	9366	200	Fig. S9	
+Sterkiella histriomuscorum	GCA_001273305.2	Q	Q	R	1.8	2.4	95.8	20438	5176	56	Fig. S4	
+Tetmemena sp.	GCA_001273295.2	Q	Q	R	1.2	1.8	97.0	7281	6353	59	Fig. S6	
+Strombidium stylifer	GCA_010577775.2	Q	Q	*	0.0	0.6	99.4					
+Oxytricha trifallax		Q	Q	*	1.2	2.4	96.4					not in Table S1
+Ichthyophthirius multifiliis	GCF_000220395.1	Q	Q	*	1.2	0.0	98.8					
+Paramecium primaurelia	GCA_905182975.1	Q	Q	*	1.2	0.0	98.8					
+Paramecium pentaurelia	GCA_905183005.1	Q	Q	*	1.2	0.0	98.8					
+Paramecium sonneborni	GCA_905182985.1	Q	Q	*	1.2	0.0	98.8					
+Paramecium octaurelia	GCA_905182995.1	Q	Q	*	1.2	0.0	98.8					
+Pseudokeronopsis flava	GCA_013420745.1	Q	Q	R	0.6	1.2	98.2					not in Fig. 2a
+Uroleptopsis citrina	GCA_001653735.1	Q	Q	R	0.0	1.8	98.2	3580	6776	55	Fig. S7	
+Paramecium tetraurelia	GCF_000165425.1	Q	Q	*	0.6	0.0	99.4					
+Halteria grandinella	GCA_006369765.1	Q	Q	*	0.0	0.6	99.4					
+Tetrahymena thermophila	GCF_000189635.1	Q	Q	*	0.0	0.0	100.0					
+Stylonychia lemnae	GCA_000751175.1	Q	Q	R	0.0	1.8	98.2	12512	6848	116	Fig. S5	

@@ -1,0 +1,41 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+jobs:
+  numpy-only:
+    # pip install without extras: rule-based classifier, model tests skipped
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install . pytest
+      - run: python -m pytest tests -rs
+
+  image:
+    # the release image: the shipped model must load without a scikit-learn
+    # version warning, and no test may be skipped
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t scribonia:ci .
+      - run: docker run --rm scribonia:ci --version
+      - name: test suite inside the image
+        run: |
+          docker run --rm -v "$PWD":/repo -w /repo --entrypoint sh scribonia:ci -c '
+            pip install --no-cache-dir -q pytest || exit 1
+            python -m pytest tests -rs -p no:cacheprovider \
+              -W error::sklearn.exceptions.InconsistentVersionWarning > /tmp/pytest.log 2>&1
+            rc=$?
+            cat /tmp/pytest.log
+            [ "$rc" -eq 0 ] || exit "$rc"
+            if tail -n 1 /tmp/pytest.log | grep -q skipped; then
+              echo "a test was skipped inside the image" >&2
+              exit 1
+            fi'

@@ -1,0 +1,11 @@
+#accession	species	taxid	stop_set	table	ambiguous	label_source	citation	verified	note	role
+# Candidate genomes that are NOT used for training, testing or the benchmark, with the reason in `note`.
+# Same columns as data/manifest.tsv. `verified` is no in every row: the label is unsupported, the
+# accession is unconfirmed, or the assembly is unsuitable. Do not move a row back without checking it.
+GCA_905178165.1	Amoebophrya sp. A25	1410381	TGA	27	yes	literature	10.1371/journal.pone.0212912	no	label unsupported, do not use: Bachvaroff 2019 found the reassignment only in Amoebophrya sp. ex Karlodinium veneficum (an ex-Akashiwo control strain was canonical); DeMontigny & Bachvaroff 2025 (10.1093/g3journal/jkaf030) contrast Kv with A25/A120/AT5 but state no code for them; Farhat et al. 2021 (10.1186/s12915-020-00927-9) is silent on the code	primary
+GCA_905178155.1	Amoebophrya sp. A120	2202890	TGA	27	yes	literature	10.1371/journal.pone.0212912	no	see A25	primary
+GCA_008636045.1	Streblomastix strix	222440	TGA	6	no	literature	10.1016/s0022-2836(03)00057-3	no	oxymonad, TAA/TAG = Gln (Keeling & Leander 2003 J Mol Biol, citation checked); not used: single-cell metagenome from a termite hindgut, contig N50 5 kb, bacterial contamination not assessed	primary
+GCA_032356065.1	Blastophysa rhizopus	619706	TGA	6	no	literature	10.1186/1471-2148-10-327	no	Ulvophyceae, TAA/TAG = Gln (Cocquyt et al. 2010; Li et al. 2021, citations checked); not used: contig N50 277 bp, below the 2 kb contig minimum	primary
+PRJNA294366	Euplotes octocarinatus	2716877	TAA,TAG	10	no	literature	10.1186/s12864-018-4445-z	no	BioProject only, GCA accession not confirmed (Chen et al. 2018 BMC Genomics)	primary
+PRJNA474770	Euplotes vannus	5939	TAA,TAG	10	no	literature	10.1111/1755-0998.13023	no	BioProject only, GCA accession not confirmed (Chen et al. 2019 Mol Ecol Resour)	primary
+GCA_002087855.3	Entodinium caudatum	47911	TAA,TAG,TGA	1	no	literature	10.1016/j.ygeno.2021.03.014	no	Park et al. 2021 assembly (WGS NBJL02); explicit code statement not found; Li et al. 2022 assembly GCA_023807325.1 is used instead	primary
