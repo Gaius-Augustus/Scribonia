@@ -3,8 +3,8 @@
 #   docker build -t gaiusaugustus/scribonia:0.1.1 .      (tag = scribonia.__version__)
 #   singularity build scribonia.sif docker://gaiusaugustus/scribonia:0.1.1
 #
-# Inference needs numpy only; scikit-learn and joblib are included so that the
-# shipped model loads and `scribonia train` works inside the image too.
+# Feature extraction and the rule-based fallback need numpy only; the shipped
+# model needs scikit-learn and joblib, which also make `scribonia train` work.
 FROM python:3.12-slim
 
 LABEL org.opencontainers.image.source="https://github.com/Gaius-Augustus/Scribonia" \

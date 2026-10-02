@@ -10,8 +10,29 @@ Author: Katharina J. Hoff, University of Greifswald, Germany.
 
 Some protists read one or two of the stop codons TAA, TAG, TGA as amino
 acids. Scribonia tells from the DNA alone which of them end translation, in
-about a second per megabase, with numpy only. It reports the stop set and its
-canonical NCBI table.
+about a second per megabase. It reports the stop set and its canonical NCBI
+table.
+
+## Method in brief
+
+Scribonia needs no gene prediction, no protein alignment and no reference
+database. For each of the 7 possible stop sets (non-empty subsets of TAA, TAG,
+TGA) it cuts all six reading frames into stop-to-stop runs and keeps the runs
+that are longer than random sequence of the same composition would produce;
+these look like genes. A true stop codon is almost absent inside such runs
+(depletion), and treating it as a stop leaves the genes intact (coverage). A
+codon that is read as an amino acid is used inside the runs at the expected
+rate, and treating it as a stop breaks them. From these and related statistics,
+including votes of single contigs of at least 5 kb, Scribonia computes 130
+features per input.
+
+A trained classifier turns the features into a call: for each codon, 10
+gradient-boosted tree models give the probability that the
+codon is a stop. They were trained on simulated bins of genomes with
+published codes and of standard genomes recoded to other stop sets, each
+model on a bootstrap sample of genera. The three probabilities are decoded
+jointly into the most probable stop set that has an NCBI table. Details:
+[How it works](docs/method.md).
 
 ## Install and run
 
